@@ -35,5 +35,6 @@ public class lee_001 {
         for (int i = 0; i < 2; i++) {
             System.out.println(solute[i]);
         }
+
     }
 }
