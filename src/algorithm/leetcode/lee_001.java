@@ -11,7 +11,7 @@ import java.util.HashMap;
  * 链接：https://leetcode-cn.com/problems/two-sum
  */
 public class lee_001 {
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[]  twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> map = new HashMap<>();
         int[] arr = new int[2];
         for (int i = 0; i < nums.length; i++) {
@@ -31,7 +31,7 @@ public class lee_001 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{2,5,5,11};
-        int[] solute = twoSum(nums, 10);
+        int[] solute =twoSum(nums, 10);
         for (int i = 0; i < 2; i++) {
             System.out.println(solute[i]);
         }
