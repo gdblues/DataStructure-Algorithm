@@ -26,7 +26,7 @@ class BiTree{
                 '}';
     }
 }
-public class CreateTree {
+public class CreateSearchTreeByPos_001{
     /**
      * 时间复杂度O(n2)
      * @param posArr
