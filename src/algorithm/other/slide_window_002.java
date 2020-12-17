@@ -42,6 +42,7 @@ public class slide_window_002 {
         }
         return -1;
     }
+    
     public static void main(String[] args) {
         String str = "abckfbca";
         String aim = "cbf";
