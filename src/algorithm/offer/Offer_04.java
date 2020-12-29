@@ -39,8 +39,5 @@ public class Offer_04 {
         for (int i = 0; i < pos.length; i++) {
             System.out.print(pos[i]+" ");
         }
-        String s = new String("abd add");
-        String replace = s.replace(" ", "%20");
-        System.out.println(replace);
     }
 }
