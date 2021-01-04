@@ -18,15 +18,15 @@ public class Offer_11 {
         }
         int i = 0;
         int j = arr.length-1;
+        //如果是正常旋转的话i就是最大的，j就是最小，特殊情况另作判断
         while (i<j-1){
             int mid = i+((j-i)>>1);
             //第一个元素小于最后一个元素的时候说明数组没有经过旋转，直接返回
             if(arr[i]<arr[j]){
                 return arr[i];
             }
-            //三个元素值相等
+            //三个元素值相等的情况下只能用顺序查找
             if((arr[i]==arr[j])&&(arr[i]==arr[mid])){
-                //只能用顺序查找
                 int result = arr[i];
                 for (int k = i+1; k <= j; k++) {
                     if(arr[k]<arr[mid]){
